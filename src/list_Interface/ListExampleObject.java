@@ -23,7 +23,7 @@ public class ListExampleObject {
         //creating list of books
         Student s1 = new Student(101, "Ahad", "Dhaka");
         Student s2 = new Student(102, "Fahad", "Narayanganj");
-        Student s3 = new Student(103, "Omar", "Narayanganj");
+        Student s3 = new Student(103, "Umar", "Narayanganj");
         list.add(s1);
         list.add(s2);
         list.add(s3);
@@ -33,7 +33,7 @@ public class ListExampleObject {
 
         Iterator<Student> itr = list.iterator();
         while (itr.hasNext()) {
-            Student st = (Student)itr.next();
+            Student st = (Student) itr.next();
             System.out.println(st.id + " " + st.name + " " + st.address);
         }
         System.out.println("");
