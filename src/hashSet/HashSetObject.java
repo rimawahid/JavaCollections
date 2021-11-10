@@ -32,10 +32,10 @@ public class HashSetObject {
 //            System.out.println(person.age + " "+ person.address+ " "+ person.age);
 //        }
         Iterator<Person> itr = set.iterator();
-            while(itr.hasNext()){
-                Person person = (Person)itr.next();
-                System.out.println(person.name+ " "+ person.address+ " "+ person.age);
-            }
+        while (itr.hasNext()) {
+            Person person = (Person) itr.next();
+            System.out.println(person.name + " " + person.address + " " + person.age);
+        }
     }
 
 }
